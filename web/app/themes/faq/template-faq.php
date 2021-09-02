@@ -4,4 +4,5 @@
 <?php get_template_part( 'template-parts/template-faq/headline' ); ?>
 <?php get_template_part( 'template-parts/template-faq/accordion' ); ?>
 <?php get_template_part( 'template-parts/template-faq/boxes' ); ?>
+<?php get_template_part( 'template-parts/template-faq/features' ); ?>
 <?php get_footer(); ?>
