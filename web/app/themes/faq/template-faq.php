@@ -11,6 +11,7 @@
             $headline = array(
                 'headline_image' => $image['url'],
                 'headline_alt' => $image['alt'],
+                'headline_ID' => $image['ID'],
                 'headline_title' => $title,
                 'headline_description' => $description,
             );
@@ -31,6 +32,7 @@
             $boxes = array(
                 'boxes_image' => $image['url'],
                 'boxes_alt' => $image['alt'],
+                'boxes_ID' => $image['ID'],
                 'boxes_box' => $box,
             );
 

@@ -1,10 +1,11 @@
-<?php $boxes = get_query_var( 'boxes' ); ?>
+<?php $boxes = get_query_var( 'boxes' );
+$srcset = wp_get_attachment_image_srcset( $boxes['boxes_ID'] ); ?>
 
 <section>
   <div class="container-fluid px-0">
     <div class="row">
       <div class="col-12">
-        <img class="w-100 mt-4 mt-lg-10" src="<?php echo $boxes['boxes_image']; ?>" alt="<?php echo $boxes['boxes_alt']; ?>">
+        <img class="w-100 mt-4 mt-lg-10" src="<?php echo $boxes['boxes_image']; ?>" srcset="<?php echo $srcset; ?>" alt="<?php echo $boxes['boxes_alt']; ?>">
       </div>
     </div>
   </div>
