@@ -1,3 +1,8 @@
+$cod-gray: #141414;
+$dove-gray: #707070;
+$alabaster: #FAFAFA;
+$alto: #D5D5D5;
+
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -5,3 +10,11 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1248px
 );
+
+$headings-font-family: 'Lato';
+$headings-font-style: normal;
+$headings-font-weight: 700;
+$headings-margin-bottom: 0;
+$headings-color: $cod-gray;
+
+$border-1px-solid-alto: 1px solid $alto;
