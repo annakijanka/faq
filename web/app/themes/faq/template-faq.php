@@ -6,6 +6,9 @@
       <div class="col">
         <h1>FAQ</h1>
         <p>No template yet.</p>
+        <section>
+          <?php get_template_part( 'template-parts/accordion' ); ?>
+        </section>
       </div>
     </div>
   </div>
