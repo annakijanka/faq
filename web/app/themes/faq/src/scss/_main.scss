@@ -1,6 +1,12 @@
-html {
+html, body {
     font-size: 14px;
     line-height: 24px;
     font-family: 'Lato';
     color: $dove-gray;
+}
+
+@media (max-width: 1199.98px) {
+    body {
+        padding: 16px 0;
+    }
 }

@@ -7,8 +7,8 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px,
-  xxl: 1248px
+  xl: 1256px,
+  xxl: 1256px
 );
 
 $headings-font-family: 'Lato';
@@ -18,3 +18,6 @@ $headings-margin-bottom: 0;
 $headings-color: $cod-gray;
 
 $border-1px-solid-alto: 1px solid $alto;
+
+$grid-gutter-width: 0;
+$container-padding-x: 16px;

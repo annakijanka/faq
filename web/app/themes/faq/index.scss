@@ -1,12 +1,6 @@
 @import "./src/scss/variables";
 
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/mixins";
-
-@import "~bootstrap/scss/reboot";
-@import "~bootstrap/scss/containers";
-@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/bootstrap";
 
 @import "./src/scss/fonts";
 @import "./src/scss/typography";
